@@ -14,9 +14,9 @@ void intento_en_stack() {
     double datos[SIZE]; 
     
     // Si llegamos aquí, sobrevivimos (pero probablemente no lleguemos)
-    datos[0] = 1.0;
-    datos[SIZE-1] = 3.14;
-    printf("[STACK] Éxito. Primer elemento: %f\n", datos[0]);
+    // datos[0] = 1.0;
+    // datos[SIZE-1] = 3.14;
+    // printf("[STACK] Éxito. Primer elemento: %f\n", datos[0]);
 }
 
 void intento_en_heap() {
