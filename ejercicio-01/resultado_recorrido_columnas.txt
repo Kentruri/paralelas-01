@@ -1,0 +1,5 @@
+gcc -O2 -std=c11 cache_demo.c -o cache_demo
+valgrind --tool=cachegrind --cache-sim=yes --branch-sim=yes ./cache_demo c
+N = 4096
+Suma (ignorar): 2139095040
+Por columnas: 1.059288 s
